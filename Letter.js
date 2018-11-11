@@ -1,3 +1,8 @@
+
+//for testing purposes
+var inquirer = require("inquirer");
+
+
 //constructor function
 var Letter = function(letter){
     this.letterChar = letter;
@@ -19,3 +24,7 @@ var Letter = function(letter){
     }
 
 }
+
+inquirer.prompt(["Questions"]).then(answers => {
+
+});
